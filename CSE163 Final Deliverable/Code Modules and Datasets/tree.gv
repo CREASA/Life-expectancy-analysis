@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<Health_Expenditure &le; 1356.306<br/>samples = 1622<br/>value = [152, 455, 761, 250, 4]<br/>class = 70~80>, fillcolor="#cbf8f0"] ;
+1 [label=<CO2 &le; 0.949<br/>samples = 1313<br/>value = [152, 455, 698, 4, 4]<br/>class = 70~80>, fillcolor="#c7f8ef"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<Health_Expenditure &le; 113.393<br/>samples = 465<br/>value = [143, 292, 26, 0, 4]<br/>class = 60~70>, fillcolor="#c2f3a3"] ;
+1 -> 2 ;
+3 [label=<samples = 401<br/>value = [134, 260, 7, 0, 0]<br/>class = 60~70>, fillcolor="#c1f3a2"] ;
+2 -> 3 ;
+4 [label=<samples = 64<br/>value = [9, 32, 19, 0, 4]<br/>class = 60~70>, fillcolor="#d9f7c6"] ;
+2 -> 4 ;
+5 [label=<Health_Expenditure &le; 236.136<br/>samples = 848<br/>value = [9, 163, 672, 4, 0]<br/>class = 70~80>, fillcolor="#6cecd4"] ;
+1 -> 5 ;
+6 [label=<samples = 227<br/>value = [3, 106, 118, 0, 0]<br/>class = 70~80>, fillcolor="#ebfcf9"] ;
+5 -> 6 ;
+7 [label=<samples = 621<br/>value = [6, 57, 554, 4, 0]<br/>class = 70~80>, fillcolor="#51e8cc"] ;
+5 -> 7 ;
+8 [label=<Health_Expenditure &le; 1850.287<br/>samples = 309<br/>value = [0, 0, 63, 246, 0]<br/>class = greater than 80>, fillcolor="#6e6cec"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<CO2 &le; 4.487<br/>samples = 50<br/>value = [0, 0, 32, 18, 0]<br/>class = 70~80>, fillcolor="#a8f4e6"] ;
+8 -> 9 ;
+10 [label=<samples = 10<br/>value = [0, 0, 10, 0, 0]<br/>class = 70~80>, fillcolor="#39e5c5"] ;
+9 -> 10 ;
+11 [label=<samples = 40<br/>value = [0, 0, 22, 18, 0]<br/>class = 70~80>, fillcolor="#dbfaf4"] ;
+9 -> 11 ;
+12 [label=<Health_Expenditure &le; 8033.485<br/>samples = 259<br/>value = [0, 0, 31, 228, 0]<br/>class = greater than 80>, fillcolor="#5754e9"] ;
+8 -> 12 ;
+13 [label=<samples = 236<br/>value = [0, 0, 19, 217, 0]<br/>class = greater than 80>, fillcolor="#4d4ae7"] ;
+12 -> 13 ;
+14 [label=<samples = 23<br/>value = [0, 0, 12, 11, 0]<br/>class = 70~80>, fillcolor="#effdfa"] ;
+12 -> 14 ;
+}
